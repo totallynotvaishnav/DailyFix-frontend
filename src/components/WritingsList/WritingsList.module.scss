@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 2rem auto;
+
+    .cardsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: 1.2rem auto;
+    }
+}
