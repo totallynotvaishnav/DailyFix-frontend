@@ -1,10 +1,12 @@
 import React from 'react';
 import { IoCloseSharp } from 'react-icons/io5';
 import axios from 'axios';
+import parse from 'html-react-parser';
 
 import styles from './Card.module.scss';
 
 const Card = (props) => {
+    console.log(props.content);
     const onDeleteHandler = () => {
         axios
             .delete(`http://localhost:8080/feed/writings/${props.id}`, {
@@ -29,9 +31,7 @@ const Card = (props) => {
                     <IoCloseSharp className={styles.icon} onClick={onDeleteHandler} />
                 </div>
             </div>
-            <div className={styles.content}>
-                <p>{props.content}</p>
-            </div>
+            <div className={styles.content}>{parse(props.content)}</div>
         </div>
     );
 };
