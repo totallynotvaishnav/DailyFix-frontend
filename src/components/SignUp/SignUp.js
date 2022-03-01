@@ -40,8 +40,6 @@ const SignUp = () => {
                     context.setUserId(res.data.id);
                     context.setName(res.data.name);
                     localStorage.setItem('token', res.data.token);
-                    localStorage.setItem('userId', res.data.id);
-                    localStorage.setItem('name', res.data.name);
                     navigate('/');
                 });
         }

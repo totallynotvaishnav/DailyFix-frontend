@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import styles from './WritePad.module.scss';
@@ -7,9 +7,13 @@ const WritePad = () => {
     const textRef = useRef(null);
     const navigate = useNavigate();
 
+    useEffect(() => {
+        textRef.current.focus();
+    }, []);
+
     const onSubmitHandler = (e) => {
         e.preventDefault();
-        const content = textRef.current.textContent;
+        const content = textRef.current.value;
         axios
             .post(
                 'http://localhost:8080/feed/write',
@@ -26,12 +30,12 @@ const WritePad = () => {
     };
     return (
         <div className={styles.container}>
-            <div
+            <textarea
                 className={styles.writeArea}
-                contentEditable
                 placeholder='How have you been?'
                 ref={textRef}
-            ></div>
+            ></textarea>
+
             <div className={styles.submit}>
                 <button className={styles.btn} onClick={onSubmitHandler}>
                     Save

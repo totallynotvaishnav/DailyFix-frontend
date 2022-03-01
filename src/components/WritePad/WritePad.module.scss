@@ -12,8 +12,13 @@
     .writeArea {
         padding: 1rem;
         font-size: 1.3rem;
-        flex-basis: 90%;
         outline: none;
+        border: none;
+        font-family: inherit;
+        max-width: 100%;
+        height: 400px;
+        resize: vertical;
+        background: inherit;
     }
 
     .submit {

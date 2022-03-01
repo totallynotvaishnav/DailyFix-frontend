@@ -16,13 +16,8 @@ function App() {
 
     useEffect(() => {
         const token = localStorage.getItem('token');
-        const userId = localStorage.getItem('userId');
-        const name = localStorage.getItem('name');
-
-        if (token && userId) {
+        if (token) {
             setIsAuth(true);
-            setUserId(userId);
-            setName(name);
         } else {
             navigate('/login');
         }

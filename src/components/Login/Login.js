@@ -35,8 +35,6 @@ const Login = () => {
                     context.setUserId(res.data.id);
                     context.setName(res.data.name);
                     localStorage.setItem('token', res.data.token);
-                    localStorage.setItem('userId', res.data.userId);
-                    localStorage.setItem('name', res.data.name);
                     navigate('/');
                 })
                 .catch((err) => {
