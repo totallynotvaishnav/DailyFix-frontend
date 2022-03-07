@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
-import { Routes, Route, useNavigate } from 'react-router-dom';
+import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 
 import NavBar from './components/NavBar/NavBar';
 import WritingsList from './components/WritingsList/WritingsList';
@@ -10,6 +10,9 @@ import AuthContext from './auth-context';
 
 function App() {
     const navigate = useNavigate();
+    const location = useLocation();
+    const { pathname } = location;
+
     const [isAuth, setIsAuth] = useState(false);
     const [userId, setUserId] = useState(null);
     const [name, setName] = useState(null);
@@ -19,9 +22,9 @@ function App() {
         if (token) {
             setIsAuth(true);
         } else {
-            navigate('/login');
+            navigate(pathname);
         }
-    }, [navigate]);
+    }, [navigate, pathname]);
 
     const home = (
         <React.Fragment>

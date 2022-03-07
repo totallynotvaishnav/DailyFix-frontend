@@ -16,7 +16,7 @@ const WritePad = () => {
         const content = textRef.current.value;
         axios
             .post(
-                'http://localhost:8080/feed/write',
+                'https://dailyfix.herokuapp.com/feed/write',
                 { content },
                 {
                     headers: { Authorization: `Bearer ${localStorage.getItem('token')}` },

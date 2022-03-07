@@ -25,7 +25,7 @@ const Login = () => {
 
         if (isValid) {
             axios
-                .post('http://localhost:8080/auth/login', {
+                .post('https://dailyfix.herokuapp.com/auth/login', {
                     email: emailRef.current.value,
                     password: passwordRef.current.value,
                 })

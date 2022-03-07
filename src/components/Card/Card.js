@@ -9,7 +9,7 @@ const Card = (props) => {
     console.log(props.content);
     const onDeleteHandler = () => {
         axios
-            .delete(`http://localhost:8080/feed/writings/${props.id}`, {
+            .delete(`https://dailyfix.herokuapp.com/feed/writings/${props.id}`, {
                 headers: { Authorization: `Bearer ${localStorage.getItem('token')}` },
             })
             .then((res) => {

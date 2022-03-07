@@ -9,7 +9,7 @@ const WritingsList = () => {
 
     useEffect(() => {
         axios
-            .get(`http://localhost:8080/feed/writings`, {
+            .get(`https://dailyfix.herokuapp.com/feed/writings`, {
                 headers: { Authorization: `Bearer ${localStorage.getItem('token')}` },
             })
             .then((res) => {
