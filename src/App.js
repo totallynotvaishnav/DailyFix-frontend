@@ -23,6 +23,9 @@ function App() {
             setIsAuth(true);
         } else {
             navigate(pathname);
+            if (pathname !== '/login' && pathname !== '/sign-up') {
+                navigate('/login');
+            }
         }
     }, [navigate, pathname]);
 
