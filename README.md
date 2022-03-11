@@ -13,11 +13,17 @@ It's easy-to-use journaling, a routine daily tracker with superior diary/journal
 -  MULTIPURPOSE USABILITY: 
 Following are some of DailyFix use cases.
 • As an emotion tracker: Capture your feelings that reflect your emotional state, whether you are thankful, filled with gratitude, upset or depressed about something, maybe an illness. DailyFix is there for you to rant about anything you wish to, to free your mind and thereby help you lead a quiet, serene life.
+
 • As a to-do list app: Journal with pictures helps to organize ideas or thoughts to maximize productivity by making notes and lists instantly.
+
 • As a Business diary day planner: Create agendas, write memos, craft presentations as notes using DailyFix as a task manager app.
+
 • As a Trip journal app: Seamlessly enable us to travel journals, including travel photos in an orderly manner. Camera capture enables us to take photos quickly in a simple journal.
+
 • As a Daily expense tracker: Organize your receipts, bills, and invoices daily. Note and save!
+
 • As a Class notebook: For educational purposes, use it as -  homework tracker, Assignment Planner, simple notebook, a quick reference, creating quick notes with pictures
+
 • As a wish list app: A Bullet journal aids note down wish list quickly.
 
 
