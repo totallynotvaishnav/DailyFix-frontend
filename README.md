@@ -47,7 +47,7 @@ Following are some of DailyFix use cases.
  5. There is a write button on the top right, by clicking on the button you will get a text area where you can write the diary.
  6. Then you can can save your work.Now you will be navigated to the home page .
  7. The three button home,write and logout are present at the right tp corner.You can select your choice.
- 8.After completing you can press the logout button and logout.
+ 8. After completing you can press the logout button and logout.
 
 ## Libraries used
 - react 
