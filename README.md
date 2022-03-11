@@ -42,8 +42,8 @@ Following are some of DailyFix use cases.
  8.After completing you can press the logout button and logout.
 
 ## Libraries used
--react 
--express.js 
+- react 
+- express.js 
 
 ## HOW TO RUN
 
