@@ -31,7 +31,7 @@ Following are some of DailyFix use cases.
 
 ## Team members:
 1. Vaishnav Nair
-2. Annie Treasa Sabu
+2. Annie Treasa Sabu(https://github.com/AnnieTreasa)
 
 ## Team ID:
    team 60
