@@ -20,7 +20,7 @@ Following are some of DailyFix use cases.
 
 • As a Business diary day planner: Create agendas, write memos, craft presentations as notes using DailyFix as a task manager app.
 
-• As a Trip journal app: Seamlessly enable us to travel journals, including travel photos in an orderly manner. Camera capture enables us to take photos quickly in a simple journal.
+• As a Trip journal app: Seamlessly enable us to travel journals.
 
 • As a Daily expense tracker: Organize your receipts, bills, and invoices daily. Note and save!
 
