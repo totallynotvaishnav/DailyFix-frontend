@@ -1,13 +1,17 @@
 #  DailyFix (https://dailyfix.netlify.app/)
 DailyFix is a FREE, passcode-protected personal diary, journal and notes app. Dailyfix helps to record activities, experiences, thoughts, and ideas throughout a day. It lets you organize your created diary/journal entries or notes from the past in the easiest way.
 #### WHY USE Dailyfix?
-• SAFEGUARD MEMORIES: DailyFix enables you to write a private diary, memoir, journals, and notes in the most natural way and record memories in an organized manner.
+- • SAFEGUARD MEMORIES: 
+DailyFix enables you to write a private diary, memoir, journals, and notes in the most natural way and record memories in an organized manner.
 
-• SECURE AND PASSCODE PROTECTED: Journal with lock helps to keep the diary private. Security Code allows keeping your entries private. Data stored in the app is securely protected with diary with lock.
+- • SECURE AND PASSCODE PROTECTED: 
+Journal with lock helps to keep the diary private. Security Code allows keeping your entries private. Data stored in the app is securely protected with diary with lock.
 
-• EASY-TO-USE:  It's easy-to-use journaling, a routine daily tracker with superior diary/journal experience — nothing confusing, nothing complicated- its simple diary for everyday daily writing. Just write and save a journal notebook! Simple diary Calendar view helps to navigate to a previously written lo easily.
+- • EASY-TO-USE:  
+It's easy-to-use journaling, a routine daily tracker with superior diary/journal experience — nothing confusing, nothing complicated- its simple diary for everyday daily writing. Just write and save a journal notebook! Simple diary Calendar view helps to navigate to a previously written lo easily.
 
-• MULTIPURPOSE USABILITY: Following are some of DailyFix use cases.
+- • MULTIPURPOSE USABILITY: 
+Following are some of DailyFix use cases.
 - As an emotion tracker: Capture your feelings that reflect your emotional state, whether you are thankful, filled with gratitude, upset or depressed about something, maybe an illness. DailyFix is there for you to rant about anything you wish to, to free your mind and thereby help you lead a quiet, serene life.
 - As a to-do list app: Journal with pictures helps to organize ideas or thoughts to maximize productivity by making notes and lists instantly.
 - As a Business diary day planner: Create agendas, write memos, craft presentations as notes using DailyFix as a task manager app.
@@ -18,8 +22,8 @@ DailyFix is a FREE, passcode-protected personal diary, journal and notes app. Da
 
 
 ## Team members:
-1.Vaishnav Nair
-2.Annie Treasa Sabu
+1. Vaishnav Nair
+2. Annie Treasa Sabu
 
 ## Team ID:
    team 60
@@ -38,8 +42,8 @@ DailyFix is a FREE, passcode-protected personal diary, journal and notes app. Da
  8.After completing you can press the logout button and logout.
 
 ## Libraries used
-react 
-express.js 
+-react 
+-express.js 
 
 ## HOW TO RUN
 
