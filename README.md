@@ -11,7 +11,9 @@ Journal with lock helps to keep the diary private. Security Code allows keeping 
 It's easy-to-use journaling, a routine daily tracker with superior diary/journal experience — nothing confusing, nothing complicated- its simple diary for everyday daily writing. Just write and save a journal notebook! Simple diary Calendar view helps to navigate to a previously written lo easily.
 
 -  MULTIPURPOSE USABILITY: 
+
 Following are some of DailyFix use cases.
+
 • As an emotion tracker: Capture your feelings that reflect your emotional state, whether you are thankful, filled with gratitude, upset or depressed about something, maybe an illness. DailyFix is there for you to rant about anything you wish to, to free your mind and thereby help you lead a quiet, serene life.
 
 • As a to-do list app: Journal with pictures helps to organize ideas or thoughts to maximize productivity by making notes and lists instantly.
