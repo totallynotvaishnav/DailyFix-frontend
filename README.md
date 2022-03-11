@@ -30,7 +30,7 @@ Following are some of DailyFix use cases.
 
 
 ## Team members:
-1. Vaishnav Nair
+1. Vaishnav Nair(https://github.com/totallynotvaishnav)
 2. Annie Treasa Sabu(https://github.com/AnnieTreasa)
 
 ## Team ID:
