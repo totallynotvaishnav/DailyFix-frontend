@@ -29,7 +29,7 @@ const SignUp = () => {
 
         if (isValid) {
             axios
-                .post('https://dailyfix.herokuapp.com/auth/signup', {
+                .post('https://dailyfix.up.railway.app/auth/signup', {
                     email: emailRef.current.value,
                     password: passwordRef.current.value,
                     name: nameRef.current.value,
